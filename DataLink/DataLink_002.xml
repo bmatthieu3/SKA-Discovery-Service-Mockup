@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="1.4">
+    <RESOURCE type="results">
+        <TABLE>
+            <FIELD name="ID" datatype="char" arraysize="*" ucd="meta.id;meta.main" />
+            <FIELD name="access_url" datatype="char" arraysize="*" ucd="meta.ref.url" />
+            <FIELD name="service_def" datatype="char" arraysize="*" ucd="meta.ref" />
+            <FIELD name="error_message" datatype="char" arraysize="*" ucd="meta.code.error" />
+            <FIELD name="semantics" datatype="char" arraysize="*" ucd="meta.code" />
+            <FIELD name="description" datatype="char" arraysize="*" ucd="meta.note" />
+            <FIELD name="content_type" datatype="char" arraysize="*" ucd="meta.code.mime" />
+            <FIELD name="content_length" datatype="long" ucd="phys.size;meta.file" unit="byte" />
+            <FIELD name="content_qualifier" datatype="char" arraysize="*" ucd="meta.code" />
+            <DATA>
+                <TABLEDATA>
+                    <TR>
+                        <TD>ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD>https:///ska.scrcnet.org/ras/data?ID=ivo%3A%2F%2Fska.srcnet.org%2FSKA-DEMO</TD>
+                        <TD />
+                        <TD />
+                        <TD>#this</TD>
+                        <TD>full retrieval of cube ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD>application/fits</TD>
+                        <TD>${content_length}</TD>
+                        <TD>cube</TD>
+                    </TR>
+                    <TR>
+                        <TD>ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD />
+                        <TD>soda-sync</TD>
+                        <TD />
+                        <TD>#cutout</TD>
+                        <TD>SODA-sync cutout of ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD>application/fits</TD>
+                        <TD />
+                        <TD></TD>
+                    </TR>
+                    <TR>
+                        <TD>ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD />
+                        <TD>soda-async</TD>
+                        <TD />
+                        <TD>#cutout</TD>
+                        <TD>SODA-async cutout of ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD>application/fits</TD>
+                        <TD />
+                        <TD></TD>
+                    </TR>
+                    <TR>
+                        <TD>ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD />
+                        <TD>visivo</TD>
+                        <TD />
+                        <TD>#proc</TD>
+                        <TD>VisIVO launch on ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD></TD>
+                        <TD />
+                        <TD></TD>
+                    </TR>
+                    <TR>
+                        <TD>ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD>https:///ska.scrcnet.org/ras/hips/hips/HI-line/SKA-DEMO#2</TD>
+                        <TD />
+                        <TD />
+                        <TD>#preview</TD>
+                        <TD>HiPS of 2D line map for cube ivo://ska.srcnet.org/SKA-DEMO#2</TD>
+                        <TD>application/hips</TD>
+                        <TD></TD>
+                        <TD>image</TD>
+                    </TR>
+                </TABLEDATA>
+            </DATA>
+        </TABLE>
+    </RESOURCE>
+    <RESOURCE type="meta" ID="soda-sync" utype="adhoc:service">
+        <PARAM name="resourceIdentifier" datatype="char" arraysize="41"
+            value="ivo://ska.srcnet.org/china-node/soda-sync" />
+        <PARAM name="standardID" datatype="char" arraysize="32" value="ivo://ivoa.net/std/SODA#sync-1.0" />
+        <PARAM name="accessURL" datatype="char" arraysize="43" value="https://ska.srcnet.org/china-node/soda-sync" />
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" ref="ID" />
+            <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
+            <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
+            <VALUES>
+                <MAX value="${RA} ${DEC} ${RADIUS}" />
+            </VALUES>
+            </PARAM>
+        </GROUP>
+    </RESOURCE>
+    <RESOURCE type="meta" ID="soda-async" utype="adhoc:service">
+        <PARAM name="resourceIdentifier" datatype="char" arraysize="21"
+            value="ivo://ska.srcnet.org/china-node/soda-async" />
+        <PARAM name="standardID" datatype="char" arraysize="33" value="ivo://ivoa.net/std/SODA#async-1.0" />
+        <PARAM name="accessURL" datatype="char" arraysize="44" value="https://ska.srcnet.org/china-node/soda-async" />
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" ref="ID" />
+            <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
+            <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
+            <VALUES>
+                <MAX value="${RA} ${DEC} ${RADIUS}" />
+            </VALUES>
+            </PARAM>
+        </GROUP>
+    </RESOURCE>
+    <RESOURCE type="meta" ID="visivo" utype="adhoc:service">
+        <PARAM name="resourceIdentifier" datatype="char" arraysize="18" value="ivo://visivo-china" />
+        <PARAM name="accessURL" datatype="char" arraysize="${len(accessURL)}" value="${accessURL}" />
+        <DESCRIPTION>VisIVO server address</DESCRIPTION>
+        <GROUP name="inputParams">
+            <PARAM name="accessFilePath" datatype="char" arraysize="${len(accessFilePath)}" ucd="meta.id;meta.dataset"
+                value="${accessFilePath}" />
+            <DESCRIPTION> To start VisiVO with the appropriate dataset </DESCRIPTION>
+            <PARAM name="port" datatype="int" arraysize="1" ucd="" value="${port}" />
+        </GROUP>
+    </RESOURCE>
+</VOTABLE>
