@@ -21,7 +21,7 @@
                         <TD />
                         <TD>#this</TD>
                         <TD>The full dataset</TD>
-                        <TD>application/fits</TD>
+                        <TD>image/fits</TD>
                         <TD>2128688640</TD>
                         <TD>cube</TD>
                     </TR>
@@ -43,7 +43,7 @@
                         <TD />
                         <TD>#cutout</TD>
                         <TD>SODA-async cutout of ivo://ska.srcnet.org/~?APERTIF_DR1/200104010_AP_B007/HI_image_cube1.fits</TD>
-                        <TD>application/fits</TD>
+                        <TD>image/fits</TD>
                         <TD />
                         <TD></TD>
                     </TR>
