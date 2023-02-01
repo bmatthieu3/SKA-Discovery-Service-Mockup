@@ -139,34 +139,34 @@
                 <TABLEDATA>
                     <TR>
                         <TD>3</TD>
-                        <TD>${ra}</TD>
-                        <TD>${dec}</TD>
-                        <TD>${radius}</TD>
-                        <TD>${bounds}</TD>
-                        <TD>ivo://ska.srcnet.org/SKA-DEMO#1</TD>
-                        <TD>SKA1-GALACTIC</TD>
-                        <TD>SKA1</TD>
-                        <TD>mid</TD>
-                        <TD>L0768_0941</TD>
+                        <TD>208.72</TD>
+                        <TD>52.77</TD>
+                        <TD>0.2</TD>
+                        <TD>polygon 209.662 52.215 207.828 52.216 207.805 53.315 209.645 53.315</TD>
+                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/190807041_AP_B008/HI_image_cube1.fits</TD>
+                        <TD>APERTIF_DR1</TD>
+                        <TD>wsrt</TD>
+                        <TD>Apertif</TD>
+                        <TD>190807041</TD>
                         <TD>cube</TD>
-                        <TD>HI line</TD>
-                        <TD>2028-01-17T00:00:00.000</TD>
-                        <TD>Galactic Center</TD>
+                        <TD>HI_spectral_cubes</TD>
+                        <TD>2019-08-07T16:34:35Z</TD>
+                        <TD>m1403+5324</TD>
                         <TD>0.4</TD>
-                        <TD>9000</TD>
-                        <TD>9000</TD>
+                        <TD>661</TD>
+                        <TD>661</TD>
                         <TD>61416.3556875</TD>
                         <TD>61416.356376527775</TD>
                         <TD>59.575</TD>
                         <TD>0.1</TD>
-                        <TD>1</TD>
+                        <TD>1218</TD>
                         <TD>0.211</TD>
                         <TD>0.217</TD>
                         <TD>7000000</TD>
                         <TD>100000</TD>
                         <TD>4</TD>
-                        <TD>https:///ska.scrcnet.org/datalink?ID=ivo%3A%2F%2Fska.srcnet.org%2FSKA-DEMO1</TD>
-                        <TD>3</TD>
+                        <TD>https:///ska.scrcnet.org/datalink?ID=ivo%3A%2F%2Fska.srcnet.org%2F~%3FAPERTIF_DR1%2F190807041_AP_B008%2FHI_image_cube1.fits</TD>
+                        <TD>2128688640</TD>
                         <TD>I Q U V</TD>
                         <TD>phot.flux.density;phys.polarization</TD>
                         <TD>application/x-votable+xml;content=datalink</TD>

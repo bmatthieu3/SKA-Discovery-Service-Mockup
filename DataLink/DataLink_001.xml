@@ -15,59 +15,48 @@
             <DATA>
                 <TABLEDATA>
                     <TR>
-                        <TD>ivo://ska.srcnet.org/SKA-DEMO#1</TD>
-                        <TD>https:///ska.scrcnet.org/ras/data?ID=ivo%3A%2F%2Fska.srcnet.org%2FSKA-DEMO</TD>
+                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/190807041_AP_B008/HI_image_cube1.fits</TD>
+                        <TD>https://ska.srcnet.org/getproduct/APERTIF_DR1/190807041_AP_B008/HI_image_cube1.fits</TD>
                         <TD />
                         <TD />
                         <TD>#this</TD>
-                        <TD>full retrieval of cube ivo://ska.srcnet.org/SKA-DEMO#1</TD>
-                        <TD>application/fits</TD>
-                        <TD>${content_length}</TD>
+                        <TD>The full dataset</TD>
+                        <TD>image/fits</TD>
+                        <TD>2128688640</TD>
                         <TD>cube</TD>
                     </TR>
                     <TR>
-                        <TD>ivo://ska.srcnet.org/SKA-DEMO#1</TD>
+                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/190807041_AP_B008/HI_image_cube1.fits</TD>
                         <TD />
                         <TD>soda-sync</TD>
                         <TD />
                         <TD>#cutout</TD>
-                        <TD>SODA-sync cutout of ivo://ska.srcnet.org/SKA-DEMO#1</TD>
-                        <TD>application/fits</TD>
+                        <TD>SODA-sync cutout of ivo://ska.srcnet.org/~?APERTIF_DR1/190807041_AP_B008/HI_image_cube1.fits</TD>
+                        <TD>image/fits</TD>
                         <TD />
                         <TD></TD>
                     </TR>
                     <TR>
-                        <TD>ivo://ska.srcnet.org/SKA-DEMO#1</TD>
+                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/190807041_AP_B008/HI_image_cube1.fits</TD>
                         <TD />
                         <TD>soda-async</TD>
                         <TD />
                         <TD>#cutout</TD>
-                        <TD>SODA-async cutout of ivo://ska.srcnet.org/SKA-DEMO#1</TD>
-                        <TD>application/fits</TD>
+                        <TD>SODA-async cutout of ivo://ska.srcnet.org/~?APERTIF_DR1/190807041_AP_B008/HI_image_cube1.fits</TD>
+                        <TD>image/fits</TD>
                         <TD />
                         <TD></TD>
                     </TR>
                     <TR>
-                        <TD>ivo://ska.srcnet.org/SKA-DEMO#1</TD>
+                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/190807041_AP_B008/HI_image_cube1.fits</TD>
                         <TD />
                         <TD>visivo</TD>
                         <TD />
                         <TD>#proc</TD>
-                        <TD>VisIVO launch on ivo://ska.srcnet.org/SKA-DEMO#1</TD>
+                        <TD>VisIVO launch on ivo://ska.srcnet.org/~?APERTIF_DR1/190807041_AP_B008/HI_image_cube1.fits</TD>
                         <TD></TD>
                         <TD />
                         <TD></TD>
-                    </TR>
-                    <TR>
-                        <TD>ivo://ska.srcnet.org/SKA-DEMO#1</TD>
-                        <TD>https:///ska.scrcnet.org/ras/hips/hips/HI-line/SKA-DEMO#1</TD>
-                        <TD />
-                        <TD />
-                        <TD>#preview</TD>
-                        <TD>HiPS of 2D line map for cube ivo://ska.srcnet.org/SKA-DEMO#1</TD>
-                        <TD>application/hips</TD>
-                        <TD></TD>
-                        <TD>image</TD>
                     </TR>
                 </TABLEDATA>
             </DATA>
@@ -83,7 +72,7 @@
             <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
             <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
             <VALUES>
-                <MAX value="${RA} ${DEC} ${RADIUS}" />
+                <MAX value="208.72 52.77 0.2" />
             </VALUES>
             </PARAM>
         </GROUP>
@@ -98,20 +87,20 @@
             <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
             <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
             <VALUES>
-                <MAX value="${RA} ${DEC} ${RADIUS}" />
+                <MAX value="208.72 52.77 0.2" />
             </VALUES>
             </PARAM>
         </GROUP>
     </RESOURCE>
     <RESOURCE type="meta" ID="visivo" utype="adhoc:service">
         <PARAM name="resourceIdentifier" datatype="char" arraysize="18" value="ivo://visivo-spain" />
-        <PARAM name="accessURL" datatype="char" arraysize="${len(accessURL)}" value="${accessURL}" />
-        <DESCRIPTION>VisIVO server address</DESCRIPTION>
+        <PARAM name="accessURL" datatype="char" arraysize="18" value="cs://spsrc14.iaa.csic.es" />
+        <DESCRIPTION>VisIVO Backend address</DESCRIPTION>
         <GROUP name="inputParams">
-            <PARAM name="accessFilePath" datatype="char" arraysize="${len(accessFilePath)}" ucd="meta.id;meta.dataset"
-                value="${accessFilePath}" />
+            <PARAM name="accessFilePath" datatype="char" arraysize="82" ucd="meta.id;meta.dataset"
+                value="/data//HI_image_cube1.fits" />
             <DESCRIPTION> To start VisiVO with the appropriate dataset </DESCRIPTION>
-            <PARAM name="port" datatype="int" arraysize="1" ucd="" value="${port}" />
+            <PARAM name="port" datatype="int" arraysize="1" ucd="" value="18021" />
         </GROUP>
     </RESOURCE>
 </VOTABLE>
