@@ -165,7 +165,7 @@
                         <TD>7000000</TD>
                         <TD>100000</TD>
                         <TD>4</TD>
-                        <TD>https:///ska.scrcnet.org/datalink?ID=ivo%3A%2F%2Fska.srcnet.org%2F~%3FAPERTIF_DR1%2F200104010_AP_B007%2FHI_image_cube1.fits</TD>
+                        <TD>https://raw.githubusercontent.com/VisIVOLab/SKA-Discovery-Service-Mockup/main/DataLink/DataLink_002.xml</TD>
                         <TD>2128688640</TD>
                         <TD>I Q U V</TD>
                         <TD>phot.flux.density;phys.polarization</TD>
