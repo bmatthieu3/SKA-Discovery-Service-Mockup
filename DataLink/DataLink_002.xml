@@ -72,7 +72,7 @@
             <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
             <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
             <VALUES>
-                <MAX value="214.269414 57.229834 0.2" />
+                <MAX value="214.26 57.22 0.2" />
             </VALUES>
             </PARAM>
         </GROUP>
@@ -87,7 +87,7 @@
             <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
             <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
             <VALUES>
-                <MAX value="214.269414 57.229834 0.2" />
+                <MAX value="214.26 57.22 0.2" />
             </VALUES>
             </PARAM>
         </GROUP>
