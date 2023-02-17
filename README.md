@@ -13,5 +13,5 @@ These files simulate Discovery Service responses for these queries. The response
 
 | **File** | **RA**     | **DEC**   | **Radius** | **Destination** |
 |----------|------------|-----------|------------|-----------------|
-| 001      | 208.72     | 52.77     | 0.2        | SPSRC           |
-| 002      | 214.26     | 57.22     | 0.2        | ChinaSRC        |
+| 001      | 215.02     | 56.83     | 0.2        | SPSRC           |
+| 002      | 39.45      | 41.01     | 0.2        | ChinaSRC        |
