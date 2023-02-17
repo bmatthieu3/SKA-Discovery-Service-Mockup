@@ -98,7 +98,7 @@
         <DESCRIPTION>VisIVO Backend address</DESCRIPTION>
         <GROUP name="inputParams">
             <PARAM name="accessFilePath" datatype="char" arraysize="82" ucd="meta.id;meta.dataset"
-                value="/home/pub/demodata/Ape-DR1/HI_spectral_cubes/200104010_AP_B007/HI_image_cube1.fits" />
+                value="/home/pub/HI_image_cube2.fits" />
             <DESCRIPTION> To start VisiVO with the appropriate dataset </DESCRIPTION>
             <PARAM name="port" datatype="int" arraysize="1" ucd="" value="11111" />
         </GROUP>
