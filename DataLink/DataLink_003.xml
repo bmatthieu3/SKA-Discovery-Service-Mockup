@@ -17,7 +17,7 @@
             <DATA>
                 <TABLEDATA>
                     <TR>
-                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/200104010_AP_B007/HI_image_cube1.fits</TD>
+                        <TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
                         <TD>https://vo.astron.nl/getproduct/APERTIF_DR1/200110007_AP_B037/HI_image_cube3.fits</TD>
                         <TD />
                         <TD />
@@ -28,7 +28,7 @@
                         <TD>cube</TD>
                     </TR>
                     <TR>
-                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/200104010_AP_B007/HI_image_cube1.fits</TD>
+			<TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
                         <TD>https://alasky.cds.unistra.fr/hips-cube-services/compute/hips:httpsalasky.cds.unistra.fr;SKA-demo;hips;APERTIF;HiPS_APERTIF_cube_NGC5585-cubic-tiles%7Cexpr:s0_1211</TD>
                         <TD />
                         <TD />
@@ -39,34 +39,34 @@
                         <TD>image</TD>
                     </TR>
                     <TR>
-                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/200104010_AP_B007/HI_image_cube1.fits</TD>
+                        <TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
                         <TD />
                         <TD>soda-HiPS</TD>
                         <TD />
                         <TD>#cutout</TD>
-                        <TD>SODA-HiPS cutout of moement zero map of  ivo://ska.srcnet.org/~?APERTIF_DR1/200104010_AP_B007/HI_image_cube1.fits</TD>
+			<TD>SODA-HiPS cutout of moment zero map of  ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
                         <TD>image/fits</TD>
                         <TD />
                         <TD></TD>
                     </TR>
                     <TR>
-                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/200104010_AP_B007/HI_image_cube1.fits</TD>
+                        <TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
                         <TD />
                         <TD>soda-sync</TD>
                         <TD />
                         <TD>#cutout</TD>
-                        <TD>SODA-sync cutout of ivo://ska.srcnet.org/~?APERTIF_DR1/200104010_AP_B007/HI_image_cube1.fits</TD>
+                        <TD>SODA-sync cutout of ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
                         <TD>image/fits</TD>
                         <TD />
                         <TD></TD>
                     </TR>
                     <TR>
-                        <TD>ivo://ska.srcnet.org/~?APERTIF_DR1/200104010_AP_B007/HI_image_cube1.fits</TD>
+                        <TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
                         <TD />
                         <TD>soda-async</TD>
                         <TD />
                         <TD>#cutout</TD>
-                        <TD>SODA-async cutout of ivo://ska.srcnet.org/~?APERTIF_DR1/200104010_AP_B007/HI_image_cube1.fits</TD>
+                        <TD>SODA-async cutout of ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
                         <TD>image/fits</TD>
                         <TD />
                         <TD></TD>
