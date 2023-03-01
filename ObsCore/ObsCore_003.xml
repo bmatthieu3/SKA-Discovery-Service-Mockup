@@ -171,6 +171,40 @@
                         <TD>phot.flux.density;phys.polarization</TD>
                         <TD>application/x-votable+xml;content=datalink</TD>
                     </TR>
+                                        <TR>
+                        <TD>3</TD>
+                        <TD>214.9</TD>
+                        <TD>56.7</TD>
+                        <TD>0.2</TD>
+                        <TD>polygon 215.92 56.25 214.03 56.25 214.03 57.34 215.92 57.34</TD>
+			<TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
+                        <TD>APERTIF_DR1</TD>
+                        <TD>wsrt</TD>
+                        <TD>Apertif</TD>
+                        <TD>200104010</TD>
+                        <TD>cube</TD>
+                        <TD>HI_spectral_cubes</TD>
+                        <TD>2020-01-04T06:38:21Z</TD>
+                        <TD>NGC 5585</TD>
+                        <TD>0.4</TD>
+                        <TD>661</TD>
+                        <TD>661</TD>
+                        <TD>61416.3556875</TD>
+                        <TD>61416.356376527775</TD>
+                        <TD>59.575</TD>
+                        <TD>0.1</TD>
+                        <TD>1218</TD>
+                        <TD>0.211</TD>
+                        <TD>0.217</TD>
+                        <TD>7000000</TD>
+                        <TD>100000</TD>
+                        <TD>4</TD>
+                        <TD>https://raw.githubusercontent.com/VisIVOLab/SKA-Discovery-Service-Mockup/main/DataLink/DataLink_003.xml</TD>
+                        <TD>2128688640</TD>
+                        <TD>I Q U V</TD>
+                        <TD>phot.flux.density;phys.polarization</TD>
+                        <TD>application/x-votable+xml;content=datalink</TD>
+                    </TR>
                 </TABLEDATA>
         </DATA>
        </TABLE>

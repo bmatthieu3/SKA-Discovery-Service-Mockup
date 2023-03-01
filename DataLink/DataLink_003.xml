@@ -33,7 +33,29 @@
                         <TD />
                         <TD />
                         <TD>#derived</TD>
-                        <TD>Moment zero map of the cube in HiPS format</TD>
+                        <TD>Moment zero map of the cube (in HiPS format)</TD>
+                        <TD>application/hips</TD>
+                        <TD>2128688640</TD>
+                        <TD>image</TD>
+                    </TR>
+                    <TR>
+			<TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
+                        <TD>https://alasky.cds.unistra.fr/hips-cube-services/compute/hips:httpsalasky.cds.unistra.fr;SKA-demo;hips;APERTIF;HiPS_APERTIF_cube_NGC5585-cubic-tiles%7Cexpr:s345_410-(s0_1211;24)</TD>
+                        <TD />
+                        <TD />
+                        <TD>#derived</TD>
+                        <TD>HI Line map derived from the cube (in HiPS format)</TD>
+                        <TD>application/hips</TD>
+                        <TD>2128688640</TD>
+                        <TD>image</TD>
+                    </TR>
+                    <TR>
+			<TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
+                        <TD>https://alasky.cds.unistra.fr/hips-cube-services/color/hips:httpsalasky.cds.unistra.fr;SKA-demo;hips;APERTIF;HiPS_APERTIF_cube_NGC5585%7Cblue:345-365%7Cgreen:365-385%7Cred:385-405</TD>
+                        <TD />
+                        <TD />
+                        <TD>#derived</TD>
+                        <TD>velocity variation color map derived from the cube (in HiPS format)</TD>
                         <TD>application/hips</TD>
                         <TD>2128688640</TD>
                         <TD>image</TD>
