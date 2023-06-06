@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VOTABLE xmlns="http://www.ivoa.net/xml/VOTable/v1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    version="1.4">
+    <DESCRIPTION>Mockup SKA discovery service response VOTable</DESCRIPTION>
+    <COOSYS ID="J2000" equinox="2000." epoch="2000" system="eq_FK5" />
+    <RESOURCE type="results">
+        <TABLE>
+            <FIELD name="ID" datatype="char" arraysize="*" ucd="meta.id;meta.main" />
+            <FIELD name="access_url" datatype="char" arraysize="*" ucd="meta.ref.url" />
+            <FIELD name="service_def" datatype="char" arraysize="*" ucd="meta.ref" />
+            <FIELD name="error_message" datatype="char" arraysize="*" ucd="meta.code.error" />
+            <FIELD name="semantics" datatype="char" arraysize="*" ucd="meta.code" />
+            <FIELD name="description" datatype="char" arraysize="*" ucd="meta.note" />
+            <FIELD name="content_type" datatype="char" arraysize="*" ucd="meta.code.mime" />
+            <FIELD name="content_length" datatype="long" ucd="phys.size;meta.file" unit="byte" />
+            <FIELD name="content_qualifier" datatype="char" arraysize="*" ucd="meta.code" />
+            <DATA>
+                <TABLEDATA>
+                    <TR>
+                        <TD>ivo://auth.example.org/datasets/fits?ASK-WALLABY/Eridanus_full_image_V3.fits#0</TD>
+                        <TD>https://casda.csiro.au/download/web/4eb619e7-3397-43d5-8114-cf99d88577cd/cutout-574594-imagecube-42178.fits</TD>
+                        <TD />
+                        <TD />
+                        <TD>#this</TD>
+                        <TD>The full dataset</TD>
+                        <TD>image/fits</TD>
+                        <TD>2128688640</TD>
+                        <TD>cube</TD>
+                    </TR>
+                   
+                    <TR>
+                        <TD>ivo://auth.example.org/datasets/fits?ASK-WALLABY/Eridanus_full_image_V3.fits#0</TD>
+                        <TD />
+                        <TD>soda-sync</TD>
+                        <TD />
+                        <TD>#cutout</TD>
+                        <TD>SODA-sync cutout of ivo://auth.example.org/datasets/fits?ASK-WALLABY/Eridanus_full_image_V3.fits#0</TD>
+                        <TD>image/fits</TD>
+                        <TD />
+                        <TD />
+                    </TR>
+                    <TR>
+                        <TD>ivo://auth.example.org/datasets/fits?ASK-WALLABY/Eridanus_full_image_V3.fits#0</TD>
+                        <TD />
+                        <TD>soda-async</TD>
+                        <TD />
+                        <TD>#cutout</TD>
+                        <TD>SODA-async cutout of ivo://auth.example.org/datasets/fits?ASK-WALLABY/Eridanus_full_image_V3.fits#0</TD>
+                        <TD>image/fits</TD>
+                        <TD />
+                        <TD />
+                    </TR>
+                 
+                    
+                </TABLEDATA>
+            </DATA>
+        </TABLE>
+    </RESOURCE>
+    <RESOURCE type="meta" ID="soda-sync" utype="adhoc:service">
+        <PARAM name="resourceIdentifier" datatype="char" arraysize="41"
+            value="ivo://ska.srcnet.org/china-node/soda-sync" />
+       
+        <PARAM name="accessURL" datatype="char" arraysize="44" value="http://202.127.3.158:8080/soda" />
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" value="ivo://auth.example.org/datasets/fits?MKT-MGCLS/basic_imaging_products/Abell_194_IPoln.fits" />
+          
+            <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
+            <VALUES>
+                <MAX value="21.463 -01.389 1.0" />
+            </VALUES>
+            </PARAM>
+            <PARAM name="BAND" ucd="em.wl;stat.interval" unit="m" datatype="double" arraysize="20.211 0.217" xtype="interval" value=""> </PARAM>
+        </GROUP>
+    </RESOURCE>
+    <RESOURCE type="meta" ID="soda-async" utype="adhoc:service">
+        <PARAM name="resourceIdentifier" datatype="char" arraysize="41"
+            value="ivo://ska.srcnet.org/china-node/soda-async" />
+        <PARAM name="standardID" datatype="char" arraysize="33" value="ivo://ivoa.net/std/SODA#async-1.0" />
+       
+        <GROUP name="inputParams">
+            <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" ref="ID" />
+           
+            <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
+            <VALUES>
+                <MAX value="214.26 57.22 0.2" />
+            </VALUES>
+            </PARAM>
+            <PARAM name="BAND" ucd="em.wl;stat.interval" unit="m" datatype="double" arraysize="20.211 0.217" xtype="interval" value=""> </PARAM>
+        </GROUP>
+    </RESOURCE>
+
+</VOTABLE>

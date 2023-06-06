@@ -17,8 +17,8 @@
             <DATA>
                 <TABLEDATA>
                     <TR>
-                        <TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
-                        <TD>https://vo.astron.nl/getproduct/APERTIF_DR1/200110007_AP_B037/HI_image_cube3.fits</TD>
+                        <TD>ivo://auth.example.org/datasets/fits?MKT-MGCLS/basic_imaging_products/Abell_194_IPoln.fits</TD>
+                        <TD>https://archive-gw-1.kat.ac.za/temp_gcls/basic_products/Abell_194_IPoln.fits.gz?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpc3MiOiJrYXQtYXJjaGl2ZS5rYXQuYWMuemEiLCJhdWQiOiJhcmNoaXZlLWd3LTEua2F0LmFjLnphIiwiaWF0IjoxNjYzMzI5MzQyLCJwcmVmaXgiOlsidGVtcCJdLCJleHAiOjE5Nzg2ODkzNDIsInN1YiI6ImtlbmRha25vd2xlcy5hc3Ryb0BnbWFpbC5jb20iLCJzY29wZXMiOlsicmVhZCJdfQ.n3EowDqBAybA1zoH_ehJMqYMlZcTK6DNWbFLwFwHLhQU5yjlTFrRZDRwXEX68ldLupeFKThf0xSBXF5q1L9rqQ</TD>
                         <TD />
                         <TD />
                         <TD>#this</TD>
@@ -27,50 +27,7 @@
                         <TD>2128688640</TD>
                         <TD>cube</TD>
                     </TR>
-                    <TR>
-			<TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
-                        <TD>https://alasky.cds.unistra.fr/hips-cube-services/compute/hips:httpsalasky.cds.unistra.fr;SKA-demo;hips;APERTIF;HiPS_APERTIF_cube_NGC5585-cubic-tiles%7Cexpr:s0_1211</TD>
-                        <TD />
-                        <TD />
-                        <TD>#derived</TD>
-                        <TD>Moment zero map of the cube (in HiPS format)</TD>
-                        <TD>application/hips</TD>
-                        <TD>2128688640</TD>
-                        <TD>image</TD>
-                    </TR>
-                    <TR>
-			<TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
-                        <TD>https://alasky.cds.unistra.fr/hips-cube-services/compute/hips:httpsalasky.cds.unistra.fr;SKA-demo;hips;APERTIF;HiPS_APERTIF_cube_NGC5585-cubic-tiles%7Cexpr:s345_410-(s0_1211;24)</TD>
-                        <TD />
-                        <TD />
-                        <TD>#derived</TD>
-                        <TD>HI Line map derived from the cube (in HiPS format)</TD>
-                        <TD>application/hips</TD>
-                        <TD>2128688640</TD>
-                        <TD>image</TD>
-                    </TR>
-                    <TR>
-			<TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
-                        <TD>https://alasky.cds.unistra.fr/hips-cube-services/color/hips:httpsalasky.cds.unistra.fr;SKA-demo;hips;APERTIF;HiPS_APERTIF_cube_NGC5585%7Cblue:345-365%7Cgreen:365-385%7Cred:385-405</TD>
-                        <TD />
-                        <TD />
-                        <TD>#derived</TD>
-                        <TD>velocity variation color map derived from the cube (in HiPS format)</TD>
-                        <TD>application/hips</TD>
-                        <TD>2128688640</TD>
-                        <TD>image</TD>
-                    </TR>
-                    <TR>
-                        <TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
-                        <TD>ivo://CDS/P/2MASS/K</TD>
-                        <TD>soda-HiPS</TD>
-                        <TD />
-                        <TD>#cutout</TD>
-			<TD>SODA-HiPS cutout of moment zero map of  ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
-                        <TD>image/fits</TD>
-                        <TD />
-                        <TD>NULL</TD>
-                    </TR>
+ 
                     <TR>
                         <TD>ivo://auth.example.org/datasets/fits?MKT-MGCLS/basic_imaging_products/Abell_194_IPoln.fits</TD>
                         <TD />
@@ -83,7 +40,7 @@
                         <TD />
                     </TR>
                     <TR>
-                        <TD>ivo://SKA/SrcNet/APERTIF_DR1/200110007_AP_B037/HI_image_cube3</TD>
+                        <TD>ivo://auth.example.org/datasets/fits?MKT-MGCLS/basic_imaging_products/Abell_194_IPoln.fits</TD>
                         <TD />
                         <TD>soda-async</TD>
                         <TD />
@@ -94,39 +51,25 @@
                         <TD />
                     </TR>
 
-                    
                 </TABLEDATA>
             </DATA>
         </TABLE>
     </RESOURCE>
-    <RESOURCE type="meta" ID="soda-HiPS" utype="adhoc:service">
-        <PARAM name="resourceIdentifier" datatype="char" arraysize="41"
-            value="ivo://CDS/P/SODA-HiPS" />
-        
-        <PARAM name="accessURL" datatype="char" arraysize="43" value="http://aladin.u-strasbg.fr/cgi-bin/SODA.hips2fits.py" />
-        <GROUP name="inputParams">
-            <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" ref="access_url"/>
-            <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
-            <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
-            <VALUES>
-                <MAX value="214.26 57.22 0.2" />
-            </VALUES>
-            </PARAM>
-        </GROUP>
-    </RESOURCE>
+
     <RESOURCE type="meta" ID="soda-sync" utype="adhoc:service">
         <PARAM name="resourceIdentifier" datatype="char" arraysize="41"
             value="ivo://ska.srcnet.org/china-node/soda-sync" />
-        <PARAM name="standardID" datatype="char" arraysize="33" value="ivo://ivoa.net/std/SODA#sync-1.0" />
+       
         <PARAM name="accessURL" datatype="char" arraysize="44" value="http://202.127.3.158:8080/soda" />
         <GROUP name="inputParams">
             <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" value="ivo://auth.example.org/datasets/fits?MKT-MGCLS/basic_imaging_products/Abell_194_IPoln.fits" />
-           <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
+          
             <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
             <VALUES>
                 <MAX value="21.463 -01.389 1.0" />
             </VALUES>
             </PARAM>
+            <PARAM name="BAND" ucd="em.wl;stat.interval" unit="m" datatype="double" arraysize="20.211 0.217" xtype="interval" value=""> </PARAM>
         </GROUP>
     </RESOURCE>
     <RESOURCE type="meta" ID="soda-async" utype="adhoc:service">
@@ -136,13 +79,14 @@
         <PARAM name="accessURL" datatype="char" arraysize="44" value="http://ska.srcnet.org/china-node/soda-async" />
         <GROUP name="inputParams">
             <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" ref="ID" />
-           <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
+           
             <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
             <VALUES>
                 <MAX value="214.26 57.22 0.2" />
             </VALUES>
             </PARAM>
+            <PARAM name="BAND" ucd="em.wl;stat.interval" unit="m" datatype="double" arraysize="20.211 0.217" xtype="interval" value=""> </PARAM>
         </GROUP>
     </RESOURCE>
-
+ 
 </VOTABLE>
