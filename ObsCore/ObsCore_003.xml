@@ -200,18 +200,18 @@
                         <TD>29</TD>
                         <TD>16</TD>
                         <TD>1</TD>
-                        <TD>http://127.0.0.1:8000/DataLink_004.xml</TD>
+                        <TD>https://raw.githubusercontent.com/VisIVOLab/SKA-Discovery-Service-Mockup/main/DataLink/DataLink_004.xml</TD>
                         <TD>2128688640</TD>
                         <TD>I</TD>
                         <TD>phot.flux.density;phys.polarization</TD>
                         <TD>application/x-votable+xml;content=datalink</TD>
                     </TR>
                     <TR>
-                        <TD>2</TD>
-                        <TD>053.75308 </TD>
-                        <TD>-24.93365</TD>
-                        <TD>0.5</TD>
-                        <TD>circle 053.75308 -24.93365 0.25</TD>
+                        <TD>3</TD>
+                        <TD>053.75</TD>
+                        <TD>-24.93</TD>
+                        <TD>1.0</TD>
+                        <TD>circle 053.75308 -24.93365 0.5</TD>
 			<TD>ivo://auth.example.org/datasets/fits?ASK-WALLABY/Eridanus_full_image_V3.fits</TD>
                         <TD>ASK-WALLABY</TD>
                         <TD>ASKAP-fast</TD>
@@ -221,9 +221,9 @@
                         <TD>HI_spectral_line</TD>
                         <TD>2019-11-06T11:25:41.901000</TD>
                         <TD>Eridanus Cluster</TD>
-                        <TD>0.4</TD>
-                        <TD>7000</TD>
-                        <TD>7000</TD>
+                        <TD>0.003</TD>
+                        <TD>661</TD>
+                        <TD>661</TD>
                         <TD>58554</TD>
                         <TD>58555</TD>
                         <TD>42300</TD>
@@ -231,10 +231,10 @@
                         <TD>1</TD>
                         <TD>0.1397</TD>
                         <TD>0.2336</TD>
-                        <TD>29</TD>
+                        <TD>697000</TD>
+                        <TD>7776</TD>
                         <TD>1</TD>
-                        <TD>1</TD>
-                        <TD>http://127.0.0.1:8000/DataLink_005.xml</TD>
+                        <TD>https://raw.githubusercontent.com/VisIVOLab/SKA-Discovery-Service-Mockup/main/DataLink/DataLink_005.xml</TD>
                         <TD>2128688640</TD>
                         <TD>I</TD>
                         <TD>phot.flux.density;phys.polarization</TD>
