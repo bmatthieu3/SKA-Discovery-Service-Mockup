@@ -78,7 +78,7 @@
         <PARAM name="standardID" datatype="char" arraysize="33" value="ivo://ivoa.net/std/SODA#async-1.0" />
         <PARAM name="accessURL" datatype="char" arraysize="44" value="http://ska.srcnet.org/china-node/soda-async" />
         <GROUP name="inputParams">
-            <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" ref="ID" />
+            <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" ref="ID" value="" />
            
             <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
             <VALUES>

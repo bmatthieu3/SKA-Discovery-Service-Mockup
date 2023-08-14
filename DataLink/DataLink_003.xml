@@ -105,7 +105,7 @@
         
         <PARAM name="accessURL" datatype="char" arraysize="43" value="http://aladin.u-strasbg.fr/cgi-bin/SODA.hips2fits.py" />
         <GROUP name="inputParams">
-            <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" ref="access_url"/>
+            <PARAM name="ID" datatype="char" arraysize="30" ucd="meta.id;meta.dataset" ref="access_url" value="" />
             <PARAM name="POS" datatype="char" arraysize="*" ucd="obs.field" value="" />
             <PARAM name="CIRCLE" datatype="double" arraysize="3" ucd="obs.field" unit="deg" xtype="circle" value="">
             <VALUES>
